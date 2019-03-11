@@ -1,0 +1,90 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/76/26/d7/7626d73942c01632c95e9691931166e0.jpg");
+    height: 20vh;
+    width: 20vw;
+}
+
+#cardContainer {
+    width: 200px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 6%;
+    text-align: center;
+    background-color: gold;
+
+}
+
+#cardInnerContainer {
+    width: 95%;
+    background-image: linear-gradient(darkorchid, purple);
+    margin: auto;
+}
+
+#spriteContainer {
+    border-color: black;
+    border-style: solid;
+    background-image: linear-gradient(sandybrown, saddlebrown);
+    width: 90%;
+    margin: auto;
+}
+
+#cardContainer1 {
+    width: 200px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 6%;
+    text-align: center;
+    background-color: gold;
+
+}
+
+#cardInnerContainer1 {
+    width: 95%;
+    background-image: linear-gradient(darkorchid, purple);
+    margin: auto;
+}
+
+#spriteContainer1 {
+    border-color: black;
+    border-style: solid;
+    background-image: linear-gradient(sandybrown, saddlebrown);
+    width: 90%;
+    margin: auto;
+}
+
+#cardContainer2 {
+    width: 200px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 6%;
+    text-align: center;
+    background-color: gold;
+
+}
+
+#cardInnerContainer2 {
+    width: 95%;
+    background-image: linear-gradient(darkorchid, purple);
+    margin: auto;
+}
+
+#spriteContainer2 {
+    border-color: black;
+    border-style: solid;
+    background-image: linear-gradient(sandybrown, saddlebrown);
+    width: 90%;
+    margin: auto;
+}
+
+
+p {
+    font-family: "American Typewriter";
+}
+
+.nameDiv {
+    border-style: double;
+}
+
+.flavorDiv {
+    border: black 1px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" th:href="@{/index.css}"/>
+
+    <title>Pokemon</title>
+</head>
+<body>
+<div id="cardContainer">
+    <div id="cardInnerContainer">
+        <p th:text="${name}" class="nameDiv"></p>
+        <div id="spriteContainer">
+            <img th:src="${nidorinoSprite.getFront_default()}">
+        </div>
+        <div id="textContainer">
+            <div class="flavorDiv">
+                <p th:text="'Weight: ' + ${weight}"></p>
+                <p th:text="'Height: ' + ${height}"></p>
+                <p th:text="'Experience: ' + ${experience}"></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="cardContainer1">
+    <div id="cardInnerContainer1">
+        <p th:text="${name1}"></p>
+        <div id="spriteContainer1">
+            <img th:src="${nidorinaSprite.getFront_default()}">
+        </div>
+        <div id="textContainer1">
+            <p th:text="'Weight: ' + ${weight1}"></p>
+            <p th:text="'Height: ' + ${height1}"></p>
+            <p th:text="'Experience: ' + ${experience1}"></p>
+
+        </div>
+    </div>
+</div>
+
+<div id="cardContainer2">
+    <div id="cardInnerContainer2">
+        <p th:text="${name2}"></p>
+        <div id="spriteContainer2">
+            <img th:src="${volbeatSprite.getFront_default()}">
+        </div>
+        <div id="textContainer2">
+            <p th:text="'Weight: ' + ${weight2}"></p>
+            <p th:text="'Height: ' + ${height2}"></p>
+            <p th:text="'Experience: ' + ${experience2}"></p>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
